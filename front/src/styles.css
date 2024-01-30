@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  min-height: 60px;
+  margin-bottom: 4rem;
+  background-color: #333;
+  padding: 2rem;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #555;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+.libro-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+.libro-container button {
+  max-width: 50px;
+}
